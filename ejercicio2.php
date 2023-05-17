@@ -7,6 +7,7 @@
         <title>Par o Impar</title>
     </head>
     <body>
+        <h2>Ejercicio 2</h2>
         <!-- Dado un número indicar si es par o impar y si es mayor de 10. -->
         <fieldset>
             <legend>

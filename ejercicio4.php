@@ -7,6 +7,7 @@
         <title>Edades</title>
     </head>
     <body>
+        <h2>Ejercicio 4</h2>
         <!-- Construir el algoritmo que solicite el nombre y edad de 3 personas y determine el nombre de la persona con mayor edad. -->
         <fieldset>
             <legend>

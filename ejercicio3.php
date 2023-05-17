@@ -7,6 +7,7 @@
         <title>Voltaje</title>
     </head>
     <body>
+        <h2>Ejercicio 3</h2>
         <!-- Construir el algoritmo para determinar el voltaje de un circuito a partir de la resistencia y la intensidad de corriente. -->
         <fieldset>
 

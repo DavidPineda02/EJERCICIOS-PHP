@@ -7,6 +7,7 @@
         <title>Factura</title>
     </head>
     <body>
+        <h2>Ejercicio 7</h2>
         <!-- Programa que pida el ingreso del nombre y precio de un artículo y la cantidad que lleva el cliente. Mostrar lo que debe pagar el comprador en su factura. -->
         <fieldset>
             <legend>

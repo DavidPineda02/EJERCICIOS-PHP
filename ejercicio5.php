@@ -7,6 +7,7 @@
         <title>Numeros</title>
     </head>
     <body>
+        <h2>Ejercicio 5</h2>
         <!-- Construir el algoritmo que lea por teclado dos números, si el primero es mayor al segundo informar su suma y diferencia, en caso contrario, informar el producto y la división del primero respecto al segundo. -->
         <fieldset>
             <legend>
