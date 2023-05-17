@@ -9,7 +9,7 @@
     <body>
         <h2>Ejercicio 06</h2>
         <!-- Construir el algoritmo en Javascript para un programa para cualquier cantidad de estudiantes que lea el nombre, el sexo y la nota definitiva y halle al estudiante con la mayor nota y al estudiante con la menor nota y cuantos eran hombres y cuantos mujeres. -->
-        <form action="06-ejercicio.php" method="post">
+        <form action="ejercicio6.php" method="post">
             <fieldset>
                 <legend><fieldset>Primer Estudiante</fieldset></legend>
 
@@ -153,8 +153,8 @@
         } else {
             $mujeres++;
         }
-        echo "$mujeres mujeres";
-        echo "$hombres hombres";
+        echo "<br> <strong>$mujeres</strong> mujeres";
+        echo "<br> <strong>$hombres</strong> hombres <br> ";
     }
 
     $promedioEst1 = ($_POST["est1Nota1"] + $_POST["est1Nota2"] + $_POST["est1Nota3"])/3;
@@ -163,25 +163,25 @@
 
     //Mayor
     if ($promedioEst1 > $promedioEst2 && $promedioEst1 > $promedioEst3) {
-        echo "<br>$estudiante1 tiene el mejor promedio con $promedioEst1";
         $mayor = $estudiante1;
+        echo "<br><strong>$mayor</strong> tiene el mejor promedio con <strong>$promedioEst1</strong>";
     } elseif ($promedioEst2 > $promedioEst3 && $promedioEst2 > $promedioEst1) {
-        echo "<br>$estudiante2 tiene el mejor promedio con $promedioEst2";
         $mayor = $estudiante2;
+        echo "<br><strong>$mayor</strong> tiene el mejor promedio con <strong>$promedioEst2</strong>";
     } elseif ($promedioEst3 > $promedioEst1 && $promedioEst3 > $promedioEst2) {
-        echo "<br>$estudiante3 tiene el mejor promedio con $promedioEst3";
         $mayor = $estudiante3;
+        echo "<br><strong>$mayor</strong> tiene el mejor promedio con <strong>$promedioEst3</strong>";
     }
 
     //Menor
     if ($promedioEst1 < $promedioEst2 && $promedioEst1 < $promedioEst3) {
-        echo "<br>$estudiante1 tiene el peor promedio con $promedioEst1";
+        echo "<br><strong>$estudiante1</strong> tiene el peor promedio con <strong>$promedioEst1</strong>";
         $menor = $estudiante1;
     } elseif ($promedioEst2 < $promedioEst3 && $promedioEst2 < $promedioEst1) {
-        echo "<br>$estudiante2 tiene el peor promedio con $promedioEst2";
+        echo "<br><strong>$estudiante2</strong> tiene el peor promedio con <strong>$promedioEst2</strong>";
         $menor = $estudiante2;
     } elseif ($promedioEst3 < $promedioEst1 && $promedioEst3 < $promedioEst2) {
-        echo "<br>$estudiante3 tiene el peor promedio con $promedioEst3";
+        echo "<br><strong>$estudiante3</strong> tiene el peor promedio con <strong>$promedioEst3</strong>";
         $menor = $estudiante3;
     }
 ?>
